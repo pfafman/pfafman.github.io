@@ -8,7 +8,7 @@ visableGallery = "#gallery1";
 
 hiddenGallery = "#gallery2";
 
-imageNames = ['pyrenees', 'pow', 'lulu', 'stelvia', 'selkirks', 'moreAlps', 'dolomites'];
+imageNames = ['pyrenees', 'pow', 'lulu', 'stelvia', 'selkirks', 'moreAlps', 'jenni', 'dolomites'];
 
 rotateImages = function() {
   var newImageName;
@@ -39,5 +39,5 @@ for (_i = 0, _len = imageNames.length; _i < _len; _i++) {
 
 $(function() {
   $(hiddenGallery).fadeOut();
-  return setInterval(rotateImages, 5000);
+  return setInterval(rotateImages, 10000);
 });

@@ -14,7 +14,8 @@ imageNames = [
     'lulu',
     'stelvia',
     'selkirks',
-    'moreAlps'
+    'moreAlps',
+    'jenni',
     'dolomites'
 ]
 
@@ -44,4 +45,4 @@ for image in imageNames
 
 $ ->
     $(hiddenGallery).fadeOut()
-    setInterval(rotateImages, 5000)
+    setInterval(rotateImages, 10000)
