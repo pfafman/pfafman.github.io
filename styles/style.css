@@ -37,8 +37,33 @@ body {
     color: #999;
 }
 
-.main-image {
+#mainGallery {
+    position: relative;
+    height: 375px;
     width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#gallery1 {
+    width: 500px;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#gallery2 {
+    width: 500px;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    margin-right: auto;
+    margin-left: auto;
+    /* opacity: 0; */
 }
 
 .navbar {
