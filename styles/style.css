@@ -71,11 +71,11 @@ body {
 
 @media (max-width: 450px) {
     #mainGallery {
-        height: 262px;
-        width: 350px;  
+        height: 225px;
+        width: 300px;  
     }
     .gallery {
-        width: 350px;  
+        width: 300px;  
     }
 
 }
